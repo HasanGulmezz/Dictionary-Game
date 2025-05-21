@@ -1,0 +1,118 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+nav {
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    position: flex;
+    padding-bottom: 20px;
+    background-color: rgb(255, 225, 204);
+    max-width: 550px;
+    min-height: 900px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.267);
+}
+#start_text {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 80px;
+    padding-top: 25px;
+}
+#start_text br {
+    display: block;
+    content: " ";
+    height: 13px;
+}
+#start_button{
+    display: block; 
+}
+#check_button{
+    display: none; 
+}
+#next_button{
+    display: none;
+}
+#end_button{
+    display: none;
+}
+#result_button{
+    display: none;
+}
+.buttons {
+    position: absolute; 
+    bottom: 45px; 
+    left: 50%; /* Yatay eksende ortala */
+    transform: translateX(-50%); /* Butonu tam ortaya getir */
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    height: 80px;
+    width: 110px;
+    border-radius: 15px;
+    border: 2px solid #0000009c;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.267);
+    font-size: 1.7em;
+    cursor: pointer;
+    background-color: rgb(255, 204, 167);
+    color: #000000;
+}
+.buttons:hover{
+    background-color: rgb(255, 214, 185);
+    color: #000000cc;
+}
+
+#main_block{
+    display: none;
+    padding: 50px;
+}
+h1{
+    font-size: 2.2em;
+    padding: 30px;
+}
+#word{
+    display: block;
+    font-size: 3.5em;
+    margin-bottom: 35px;
+}
+#answer{
+    width: 56%;
+    box-sizing: border-box;
+    font-size: 2em;
+    border: 2px solid #0000009c;
+    padding: 2px 8px;
+    border-radius: 5px;
+    margin: 8px;
+}
+#boolean_text{
+    display: block;
+    font-size: 2.1em;
+    margin-top: 30px;
+}
+#score{
+    display: block;
+    font-size: 1.8em;
+    padding-top: 20px;
+}
+
+#end_text {
+    display: none;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 120px;
+    padding-top: 100px;
+}
+#result_text{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 45px;
+}
+#end_text br {
+    display: block;
+    content: " ";
+    height: 18px;
+}

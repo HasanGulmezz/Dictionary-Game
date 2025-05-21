@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css"></head>
+<body>
+    <nav>
+        <p id="start_text">M<br>E<br>R<br>H<br>A<br>B<br>A</p>
+        <button type="button" id="start_button" class="buttons" onclick="start()">Başla</button>
+        <label id="score"></label>
+        <form id="main_block">
+            <h1>Kelime:</h1>
+            <label id="word"></label>
+            <h1>Cevabınız:</h1>
+            <input type="text" id="answer">
+            <button type="button" id="check_button" class="buttons" onclick="check()">Kontrol Et</button>
+            <button type="button" id="next_button" class="buttons" onclick="next()">Sıradaki</button>
+            <button type="button" id="end_button" class="buttons" onclick="end()">Bitir</button>
+            <label id="boolean_text"></label>
+        </form>
+        <p id="end_text">S<br>O<br>N</p>
+        <label id="result_text"></label>
+        <button type="button" id="result_button" class="buttons" onclick="result()">Hataları Gör</button>
+    </nav>
+    <script src="index.js"></script>
+</body>
+</html>
